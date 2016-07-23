@@ -1,0 +1,29 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "cpf",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dataNascimento",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "cliente",
+    "pagination": "pager",
+    "microserviceName": "financeiro",
+    "searchEngine": "no"
+}
