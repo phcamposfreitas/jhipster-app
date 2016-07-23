@@ -1,0 +1,22 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "codigo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "saldo",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "conta_corrente",
+    "pagination": "pager",
+    "microserviceName": "financeiro",
+    "searchEngine": "no"
+}

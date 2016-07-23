@@ -47,7 +47,7 @@ spring:
         include: swagger # automatically set the 'swagger' profile
 
 server:
-    port: 9090
+    port: 9092
 
 # ===================================================================
 # JHipster specific properties
